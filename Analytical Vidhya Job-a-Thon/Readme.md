@@ -29,6 +29,6 @@ i.e., If the employee doesn’t have last working date, the employee is still wo
 •	GroupBy: - Since there are multiple records for each Employee ID, Grouping is performed by combining the matching records and taking the average of the Total_Business_Value.
 •	Cleaning: - I have removed Employee_Id, joining date, from the training data as they do not contribute in predicting the attrition of the Employee.
 
-#Conclusion:
+# Conclusion:
 	Among all the models used to predict the Employee Attrition (Random Forest, Logistic Regression, Decision Tree, Grid Search, Support Vector Machine, AdaBoost). Support Vector Machine shown accuracy of 81% and when submitted in portal it gave an accuracy of 72%. 
 	So, using Support Vector Machine Model is the best approach in predicting the attrition of an Employee.
